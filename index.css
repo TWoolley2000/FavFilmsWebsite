@@ -1,0 +1,64 @@
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+    font-family: 'Source Sans Pro', sans-serif;
+}
+* {
+    font-family: 'Source Sans Pro', sans-serif;;
+    background-color: rgb(142, 229, 255)
+}
+.navbar {
+    background-color: grey;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    width: 73%;
+    height: 180px;
+    font-size: 100;
+    margin: 20px;
+    padding: 80px, 0px, 0px 0px;
+    text-decoration: underline black;
+    border: solid black;
+}
+.active {
+    background-color:rgb(74, 94, 202);
+}
+.inactive {
+    background-color: gray;
+}
+.navbar a { 
+    color:black;
+    font-size: 50px; 
+}
+.logo {
+display: flex;
+display: inline-flex;
+background-color: gray;
+}
+.firsttext {
+    margin: 20px;
+    border: solid black 2px;
+    width: 30%;
+    font-size: 32px;
+    float: left;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 25%;
+    padding: 0px;
+}
+.images {
+    max-width: 100%;
+    height: auto;
+    transform: scale(-2, -3);
+}
+img {
+    float: right;
+}
+.disclaimer {
+font-size: 30px;
+position: relative;
+bottom: 50%;
+float: right;
+}
